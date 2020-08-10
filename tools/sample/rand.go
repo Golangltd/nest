@@ -2,7 +2,7 @@ package sample
 
 import (
 	"math/rand"
-	"lol.com/server/nest.git/tools/collection"
+	"github.com/Golangltd/nest/tools/collection"
 )
 
 //随机字符串，包含大小写字母和数字

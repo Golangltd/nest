@@ -3,12 +3,12 @@ package user
 import (
 	"encoding/json"
 	"errors"
-	"lol.com/server/nest.git/tools/ip"
+	"github.com/Golangltd/nest/tools/ip"
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/proto"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/proto"
 )
 
 //NOTE: 本页仅集成游戏中常用的一些功能模块

@@ -1,6 +1,6 @@
 package room
 
-import "lol.com/server/nest.git/cont/db"
+import "github.com/Golangltd/nest/cont/db"
 
 type Room struct {
 	gameKind int32

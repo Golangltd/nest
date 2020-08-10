@@ -5,9 +5,9 @@ import (
 	"github.com/name5566/leaf/gate"
 	"github.com/name5566/leaf/module"
 	"reflect"
-	"lol.com/server/nest.git/leaf"
-	"lol.com/server/nest.git/proto"
-	"lol.com/server/nest.git/tools/tz"
+	"github.com/Golangltd/nest/leaf"
+	"github.com/Golangltd/nest/proto"
+	"github.com/Golangltd/nest/tools/tz"
 )
 
 //各游戏通用心跳/对时设计

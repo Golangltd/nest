@@ -2,9 +2,9 @@ package room
 
 import (
 	"fmt"
-	"lol.com/server/nest.git/cont/db"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/tools/tz"
+	"github.com/Golangltd/nest/cont/db"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/tools/tz"
 )
 
 type Store struct {

@@ -2,7 +2,7 @@ package cache
 
 import (
 	"encoding/json"
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 )
 
 type broadCastWrapper struct {

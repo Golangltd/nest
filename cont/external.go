@@ -1,8 +1,8 @@
 package cont
 
 import (
-	"lol.com/server/nest.git/cont/db"
-	r "lol.com/server/nest.git/cont/room"
+	"github.com/Golangltd/nest/cont/db"
+	r "github.com/Golangltd/nest/cont/room"
 )
 
 var m *ModelCont

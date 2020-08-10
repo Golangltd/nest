@@ -2,7 +2,7 @@ package deepcopy
 
 import (
 	"encoding/json"
-	"lol.com/server/nest.git/tools/jsonutils"
+	"github.com/Golangltd/nest/tools/jsonutils"
 )
 
 //用json序列化的方法深拷贝，比反射更慢；有时候需要用json的tag去除某些字段充当RO

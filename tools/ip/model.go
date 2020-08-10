@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/jinzhu/gorm"
-	"lol.com/server/nest.git/tools/sample"
+	"github.com/Golangltd/nest/tools/sample"
 )
 
 type IP struct {

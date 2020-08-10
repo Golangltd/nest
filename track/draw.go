@@ -1,6 +1,6 @@
 package track
 
-import "lol.com/server/nest.git/log"
+import "github.com/Golangltd/nest/log"
 
 type ChairInfo struct {
 	userId  uint64

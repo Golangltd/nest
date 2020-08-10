@@ -1,6 +1,6 @@
 package track
 
-import "lol.com/server/nest.git/tools/tz"
+import "github.com/Golangltd/nest/tools/tz"
 
 //基础游戏事件
 type BaseEvent struct {

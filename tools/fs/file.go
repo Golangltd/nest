@@ -2,7 +2,7 @@ package fs
 
 import (
 	"os"
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 )
 
 func GetLastModifyTime(path string) (ts int64, err error) {

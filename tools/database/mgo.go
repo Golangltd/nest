@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/globalsign/mgo"
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 	"time"
 )
 

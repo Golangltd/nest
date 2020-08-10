@@ -4,7 +4,7 @@ package sample
 
 import (
 	"math/rand"
-	"lol.com/server/nest.git/tools/collection"
+	"github.com/Golangltd/nest/tools/collection"
 )
 
 // AliasTable is a discrete distribution

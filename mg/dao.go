@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math"
 
-	"lol.com/server/nest.git/tools/mem"
+	"github.com/Golangltd/nest/tools/mem"
 
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/tools/tz"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/tools/tz"
 )
 
 type UserStatsDAO struct {

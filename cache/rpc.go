@@ -3,8 +3,8 @@ package cache
 import (
 	"encoding/json"
 	"github.com/gomodule/redigo/redis"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/tools"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/tools"
 )
 
 // 与其他服务器的通信

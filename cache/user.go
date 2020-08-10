@@ -3,7 +3,7 @@ package cache
 import (
 	"encoding/json"
 	"github.com/gomodule/redigo/redis"
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 )
 
 type userStatus struct {

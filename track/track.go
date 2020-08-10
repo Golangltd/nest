@@ -2,7 +2,7 @@ package track
 
 import (
 	"fmt"
-	"lol.com/server/nest.git/cont"
+	"github.com/Golangltd/nest/cont"
 )
 
 var track *Track

@@ -8,9 +8,9 @@ import (
 	"github.com/name5566/leaf/network/json"
 	"go.uber.org/zap"
 	L "log"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/proto"
-	"lol.com/server/nest.git/tools/tz"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/proto"
+	"github.com/Golangltd/nest/tools/tz"
 	"time"
 )
 

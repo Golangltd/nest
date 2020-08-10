@@ -6,7 +6,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"net/http"
 	"strconv"
-	"lol.com/server/nest.git/user"
+	"github.com/Golangltd/nest/user"
 )
 
 const (

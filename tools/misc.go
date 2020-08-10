@@ -3,8 +3,8 @@ package tools
 import (
 	"os"
 	"path/filepath"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/tools/fs"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/tools/fs"
 	"time"
 )
 

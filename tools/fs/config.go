@@ -2,7 +2,7 @@ package fs
 
 import (
 	"sync"
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 )
 
 //解析器需要实现的接口
