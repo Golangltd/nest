@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gomodule/redigo/redis"
-	"lol.com/server/nest.git/log"
-	"lol.com/server/nest.git/tools/database"
+	"github.com/Golangltd/nest/log"
+	"github.com/Golangltd/nest/tools/database"
 )
 
 var m *Db

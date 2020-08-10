@@ -1,7 +1,7 @@
 package track
 
 import (
-	"lol.com/server/nest.git/log"
+	"github.com/Golangltd/nest/log"
 	"testing"
 	"time"
 )
