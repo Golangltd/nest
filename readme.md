@@ -14,14 +14,10 @@
 1. 如果不需要更新本项目代码，不必clone本项目到本地；
 2. 由于本项目未存放在github之上，属于私有repo，因此你必须手动设置对应gitlab的地址，在bash中输入
 
-```bash
-git config --global url."yourgit:".insteadOf "https://lol.com/"
-```
 
 **请将上文中的git地址替换成本地的git仓库**，作为开发人员，请确保你有该项目的访问权限（只读权限即可）
-3. 如果新建项目需要依赖本项目，请在`go.mod`里面`require lol.com/server/nest.git latest`，然后使用`go mod download`即可将其下载到本地；
+3. 如果新建项目需要依赖本项目，请在`go.mod`里面`require github.com/Golangltd/nest latest`，然后使用`go mod download`即可将其下载到本地；
 4. 如果`go.mod`中的依赖版本与本地不符合，可以使用`go mod tidy`进行更新，其他`go mod`命令请自行学习；
-5. NOTE: 如果本地go语言环境不满足需求，可以手动git clone本项目到`$GOPATH/lol.com/server`文件夹下，但是以后就需要手动git pull来进行更新了；
 
 ## 项目结构介绍
 
