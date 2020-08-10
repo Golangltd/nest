@@ -223,10 +223,10 @@ func (m *ErrorST) GetMsg() string {
 }
 
 func init() {
-	proto.RegisterType((*Ping)(nil), "proto.Ping")
+/*	proto.RegisterType((*Ping)(nil), "proto.Ping")
 	proto.RegisterType((*Pong)(nil), "proto.Pong")
 	proto.RegisterType((*ErrorST)(nil), "proto.ErrorST")
-	proto.RegisterEnum("proto.STATUS", STATUS_name, STATUS_value)
+	proto.RegisterEnum("proto.STATUS", STATUS_name, STATUS_value)*/
 }
 
 func init() { proto.RegisterFile("msg.proto", fileDescriptor_msg_4b2ec394d9cf017c) }
