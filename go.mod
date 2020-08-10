@@ -1,4 +1,4 @@
-module lol.com/server/nest.git
+module github.com/Golangltd/nest
 
 require (
 	github.com/gin-contrib/cors v1.3.0
@@ -18,4 +18,4 @@ require (
 	golang.org/x/crypto v0.0.0-20190506204251-e1dfcc566284 // indirect
 )
 
-go 1.13
+go 1.14
